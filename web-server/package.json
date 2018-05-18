@@ -7,7 +7,7 @@
     , "everyauth": "0.3.0"
     , "connect": ">=0.0.1"
     , "ejs": "0.8.3"
-    , "generic-pool": "*"
+    , "generic-pool": "2.5.4"
     , "mysql": "*"
   }
 }

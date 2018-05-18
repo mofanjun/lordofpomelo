@@ -11,7 +11,7 @@ if(mysqlConfig[env]) {
  * Create mysql connection pool.
  */
 var createMysqlPool = function(){
-  return _poolModule.createPool({
+  return _poolModule.Pool({
     name     : 'mysql',
     create   : function(callback) {
       var client = mysql.createConnection({
