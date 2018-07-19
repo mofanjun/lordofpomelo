@@ -66,7 +66,7 @@ pro.entry = function(msg, session, next) {
 			}
 
 			player = players[0];
-
+			//serverId = area-server-1
 			session.set('serverId', self.app.get('areaIdMap')[player.areaId]);
 			session.set('playername', player.name);
 			session.set('playerId', player.id);

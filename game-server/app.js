@@ -86,6 +86,19 @@ app.configure('production|development', 'area', function(){
 		instancePool.init(require('./config/instance.json'));
 		app.areaManager = instancePool;
 	}else{
+		/**
+		 *    { id: '1',
+				name: 'desert',
+				type: 1,
+				areaName: '沙漠',
+				level: 0,
+				width: 4200,
+				height: 2800,
+				path: '/config/map/desert.json',
+				towerWidth: 300,
+				towerHeight: 300 }
+		 * 
+		*/
 		scene.init(dataApi.area.findById(server.area));
 		app.areaManager = scene;
     /*

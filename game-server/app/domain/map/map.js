@@ -9,6 +9,19 @@ var fs = require('fs');
 /**
  * The data structure for map in the area
  */
+/**
+ *    { id: '1',
+		name: 'desert',
+		type: 1,
+		areaName: '沙漠',
+		level: 0,
+		width: 4200,
+		height: 2800,
+		path: '/config/map/desert.json',
+		towerWidth: 300,
+		towerHeight: 300 }
+	* 
+*/
 var Map = function(opts) {
 	this.mapPath = process.cwd() + opts.path;
 	this.map = null;
