@@ -66,8 +66,12 @@
   ],
 
   "levels": {
-  	"rpc-log" : "ERROR", 
-    "forward-log": "ERROR"
+    "rpc-log" : "ERROR", 
+    "forward-log": "ERROR",
+    "pomelo-rpc": "ERROR",
+    "con-log": "ERROR",
+    "pomelo": "ERROR",
+    "node-log": "ERROR"
   }, 
 
   "replaceConsole": true
